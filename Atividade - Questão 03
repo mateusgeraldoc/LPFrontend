@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    escreva("Digite um Número: ")
+    leia(numero)
+    limpa()
+
+    se(numero%2==0) //verifica se o numero e par ou impar
+    {
+      escreva(numero, " é Par!!")
+    }
+    senao
+    {
+      escreva(numero, " é Impar!!")
+    }
+  }
+}
