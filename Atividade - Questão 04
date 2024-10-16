@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro numero1, numero2
+
+    escreva("Digite um Número: ")
+    leia(numero1)
+    escreva("Digite outro Número: ")
+    leia(numero2)
+    limpa()
+
+    se (numero1 > numero2) //verifica o maior numero
+    {
+      escreva("O maior número é: ", numero1)
+    }
+    senao
+      {
+        escreva("O maior número é: ", numero2)
+      }
+  }
+}
