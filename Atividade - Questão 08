@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro numero, contador
+    escreva("Digite um Número: ")
+    leia(numero)
+    limpa()
+    
+    escreva ("TABUADA DO ", numero, "\n\n")
+    contador=0
+    enquanto(contador<=10) //exibe a tabuada do número informado
+    {
+      escreva(numero, " x ", contador, " = ", numero*contador, "\n")
+      contador=contador+1
+    }
+  }
+}
