@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro numero1, numero2, soma
+    escreva("Digite um Número: ")
+    leia(numero1)
+    escreva("Digite outro Número: ")
+    leia(numero2)
+    limpa()
+
+    soma = numero1 + numero2 //soma dos números
+    escreva("Soma: ", soma) 
+  }
+}
